@@ -3,16 +3,16 @@
 # Change `author1` to your shortname.
 author1:
   name:              Gunwoong cho
-  email:             gwj0421@gmail.com
+  email:             gunwoong1630@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요 백엔드 개발자 조건웅입니다
+    안녕하세요 백엔드 개발자 조건웅입니다.
 
   # This photo will be used in the about section
   picture:
-    path:            https://via.placeholder.com/128x128
+    path:            /assets/img/private/portrait_256x256.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            https://via.placeholder.com/128x128
@@ -25,7 +25,7 @@ author1:
   social:
     # twitter:         <username>
     github:          gunwoong1630
-    # email:           <mail@domain.tld>
+    email:           gunwoong1630@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

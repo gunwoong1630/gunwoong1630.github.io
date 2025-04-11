@@ -29,7 +29,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  Hi
+  Gunwoong dev blog
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/private/portrait_256x256.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,10 +49,17 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Project
+    url:               /project/
+    submenu:
+      - title:               velog-export
+        url:               /velog-export/
+  - title:             Problem solution
+    url:               /ps/
+  - title:             Review
+    url:               /review/
+  - title:             Study
+    url:               /study/
   - title:             About
     url:               /about/
 
@@ -92,7 +99,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/blog/background.png
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -148,10 +155,11 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      path: ""
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:

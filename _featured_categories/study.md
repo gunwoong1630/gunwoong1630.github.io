@@ -3,15 +3,15 @@
 layout: list
 
 # The title of the tag's page.
-title: Travel
+title: Study
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: travel
+slug: study
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  여행 관련
-
+  학습 내용 정리 내용
+  
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 
