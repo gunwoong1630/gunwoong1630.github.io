@@ -2,11 +2,13 @@
 layout: post
 title: Troble shoting - org.springframework.beans.NotReadablePropertyException 
 description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  Troble shoting - org.springframework.beans.NotReadablePropertyException 
 sitemap: false
 category: [project,velog-export]
 hide_last_modified: true
 ---
+
+# Troble shoting - NotReadablePropertyException 
 
 # 상황 및 에러 로그
 
