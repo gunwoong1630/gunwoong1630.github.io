@@ -33,6 +33,13 @@ Caused by: org.springframework.beans.NotReadablePropertyException: Invalid prope
 
 # 기본 지식
 
+## 데이터 바인딩
+데이터 바인딩에 대한 것을 GPT한테 물어보았다.
+
+![gpt1](</assets/img/blog/project/velog-export/gpt1.png>)
+![gpt2](</assets/img/blog/project/velog-export/gpt2.png>)
+
+## Getter & Setter
 ``` java
 public class NotReadablePropertyExceptionTest {
     @Test
